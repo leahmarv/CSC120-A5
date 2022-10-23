@@ -15,8 +15,8 @@ class Scarecrow {
     private Pants legs;
     private Boot leftFoot;
     private Boot rightFoot;
-    private Banner sign;
-    private String message;
+    //private Banner sign;
+    String message;
 
     /* Constructor
      * Initializes parts of scarecrow
@@ -27,7 +27,7 @@ class Scarecrow {
         legs = p;
         leftFoot = l;
         rightFoot = r;
-        sign = b;
+        //sign = b;
  
     }
 
@@ -47,6 +47,8 @@ class Scarecrow {
 
         
         Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Boot("left"), new Boot("right"), new Banner(" "));
+
+
 
         // If a message was passed in on the command line, extract and store it
         // in Step 4, you'll pass this value along to your Banner constructor

@@ -1,4 +1,4 @@
-import javax.swing.text.StyledEditorKit;
+//import javax.swing.text.StyledEditorKit;
 
 /*
  * Banner class (template)
