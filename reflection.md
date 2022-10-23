@@ -2,3 +2,6 @@ Use this file to record your reflection on this assignment.
 
 - What are your initial impressions of how `Association` affectes your programming?
 - What worked, what didn't, what advice would you give someone taking this course in the future?
+I think that association is a useful property of object oriented programming but I need more practice to figure out how to effectively use it. I understand that the scarecrow could also call the banner methods, while keeping the scarecrow and banner as separate objects. I see that this is useful but I also think it could get complicated very quickly if the relationship between different classes aren't kept track of.
+
+Making the ASCII art in Notepad first was very helpful. I made all of the individual clothing pieces and then implemented the method to print them to the console for each class, one after another, which allowed me to complete a significant part of the project relatively quickly. I'm still unsure how to use console commands to execute methods that are contained in my program. I don't fully understand the relationship between my code and the console. I would recommend that future students in this course sketch out a basic plan of the way their program will work before actually starting to write any code.

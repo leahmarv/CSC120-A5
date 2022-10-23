@@ -1,8 +1,8 @@
 /*
  * Boot class (template)
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author R. Jordan Crouser + CSC120 (Fall '22)) + Leah Marville
+ * @version 22 October 2022
  */
 public class Boot {
   

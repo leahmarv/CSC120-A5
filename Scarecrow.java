@@ -1,8 +1,8 @@
 /*
  * Scarecrow class (template)
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author R. Jordan Crouser + CSC120 (Fall '22)) + Leah Marville
+ * @version 22 October 2022
  */
 
 class Scarecrow {
@@ -15,23 +15,24 @@ class Scarecrow {
     private Pants legs;
     private Boot leftFoot;
     private Boot rightFoot;
-    //private Banner sign;
-    //private String message;
+    private Banner sign;
+    private String message;
 
     /* Constructor
-     * TODO: initialize remaining parts
+     * Initializes parts of scarecrow
      */
-    public Scarecrow(Pumpkin h, Shirt s, Pants p, Boot l, Boot r) {
+    public Scarecrow(Pumpkin h, Shirt s, Pants p, Boot l, Boot r, Banner b) {
         head = h;
         body = s;
         legs = p;
         leftFoot = l;
         rightFoot = r;
+        sign = b;
+ 
     }
 
     /* Displays the Scarecrow 
-     * TODO: call the .display() method of each part... 
-     *       ...in the right order!
+     * 
     */
     public void display() {
         head.display();
@@ -45,18 +46,18 @@ class Scarecrow {
     public static void main(String[] args) {
 
         
-        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Boot("left"), new Boot("right"));
+        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Boot("left"), new Boot("right"), new Banner(" "));
 
         // If a message was passed in on the command line, extract and store it
-        // TODO: in Step 4, you'll pass this value along to your Banner constructor
-        /*
-         * 
-         * if (args.length > 0) {
-            myScarecrow.message = args[0];
-        }
-         */
+        // in Step 4, you'll pass this value along to your Banner constructor
         
-
+        
+         
+         if (args.length > 0) {
+            myScarecrow.message = args[0];
+            
+        }
+        
         myScarecrow.display();
     }
 
